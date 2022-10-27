@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- LINK TO CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <!--  LINK TO FONT AWESOME  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+    <!---  BOX ICONS  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Google fonts (MONTSERRAT) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!--   Link To Swiper   -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<style>
+    body{
+        background-image: url(images/background\ texture.psd);
+    }
+</style>
+<body>
+    <nav>
+        <div class="container nav-container">
+            <a href="index.html"><h4>JAVAID SCHOOL</h4></a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class='bx bx-menu'></i></button>
+            <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </nav>
+
+    <!--    END OF NAVBAR   -->
+
+    <section class="contact">
+        <div class="container contactus">
+            <aside class="contact-aside">
+                <div class="aside-image">
+                    <img src="images/contact.svg" alt="aside-image" srcset="">
+                </div>
+                <h2>Contact Us</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quam doloribus asperiores eius nulla voluptates quibusdam.
+                </p>
+                <ul class="contact-details">
+                    <li>
+                        <i class='bx bx-phone'></i>
+                        <h5>+92 334 3714565</h5>
+                    </li>
+                    <li>
+                        <i class='bx bx-envelope'></i>
+                        <h5>javaidschool03@gmail.com</h5>
+                    </li>
+                    <li>
+                        <i class='bx bx-location-plus'></i>
+                        <h5>Korangi Karachi</h5>
+                    </li>
+                </ul>
+                <ul class="contact-socials">
+                    <li><a href="https://facebook.com"><i class='bx bxl-facebook'></i></a></li>
+                    <li><a href="https://instagram.com"><i class='bx bxl-instagram'></i></a></li>
+                    <li><a href="https://twitter.com"><i class='bx bxl-twitter'></i></a></li>
+                    <li><a href="https://linkedin.com"><i class='bx bxl-linkedin'></i></a></li>
+                </ul>
+            </aside>
+
+            <form action="https://formspree.io/f/xzbwjvev" method="POST" class="contact-foam">
+                <div class="form-name">
+                    <input type="text" name="First Name" placeholder="First Name" required>
+                    <input type="text" name="Last Name" placeholder="Last Name" required>
+                </div>
+                <input type="email" name="Email Address" placeholder="Your Email Address" required>
+                <textarea name="Massage" placeholder="Message" rows="7" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-1">
+                <a href="index.html" class="footer-logo"><h4>JAVAID SCHOOL</h4></a>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, commodi.
+                </p>
+            </div>
+
+            <div class="footer-2">
+                <h4>Permalinks</h4>
+                <ul class="Permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Pollicy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-4">
+                <h4>Contact Us</h4>
+                <div>
+                <p>+92 334 3714565</p>
+                <p>javaidschool03@gmail.com</p>
+                </div>   
+                <ul class="footer-social">
+                    <li>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+          
+        </div>
+        <div class="footer-copyright">
+            <small>Copyright &copy; Rehman Ali Web Designer</small>
+        </div>
+      </footer>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
